@@ -251,7 +251,7 @@ def main():
     ).pull():
         print(line)
 
-def run_git_puller(git_url, branch_name = "main", repo_dir = "."):
+def run_git_puller(git_url, branch_name = "master", repo_dir = "."):
     for line in GitPuller(git_url, branch_name, repo_dir).pull():
         print(line)
 
