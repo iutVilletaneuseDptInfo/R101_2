@@ -11,8 +11,10 @@ Il vous faut :
 
 Pour cela, ouvrez un terminal et copiez/collez les instructions suivantes :
 ```bash
-mkdir ~/Bureau/Mes_Montages/$USER/R101_2
-cd ~/Bureau/Mes_Montages/$USER/R101_2
+cd ~/Bureau/Mes_Montages
+cd $USER
+mkdir R101_2
+cd R101_2
 git clone https://github.com/iutVilletaneuseDptInfo/R101_2.git .
 ```
 
@@ -23,7 +25,9 @@ git clone https://github.com/iutVilletaneuseDptInfo/R101_2.git .
 Pour cela, ouvrez un terminal et copier/coller les instructions suivantes :
 
 ```bash
-cd ~/Bureau/Mes_Montages/$USER/R101_2
+cd ~/Bureau/Mes_Montages
+cd $USER
+cd R101_2
 ./updateDepot
 jupyter-notebook
 ```
