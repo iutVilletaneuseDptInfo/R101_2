@@ -1,0 +1,2 @@
+#monAutreScript.py
+import monScript
